@@ -1,0 +1,263 @@
+/* Element Setup */
+body, html, #root
+{
+    background:#d9d9d9;
+    height:100%;
+}
+
+#compass
+{
+    width:200px;
+    height:200px;
+	margin: 0 auto;
+
+	position: relative;
+
+	border: 2px solid #777;
+    border-radius: 50%;
+    background:#fff;
+}
+
+/* Pointer X */
+#pointerX
+{
+	width: 100%;
+    height: 2px;
+	
+	position: relative;
+	left: 0%; 
+    bottom:50%;
+    border:1px solid #000
+}
+
+/* Pointer Y */
+#pointerY
+{
+	width: 2px;
+    height: 100%;
+	
+	position: relative;
+	left: 50%; 
+    top: 0%;
+
+    border:1px solid #000;
+}
+
+.container
+{
+    margin-top:60px;
+}
+
+.col
+{
+    display:flex;
+    justify-content: center;
+}
+
+.col.small
+{
+    flex:0.2;
+    background:var(--bs-dark-rgb);
+    border-radius:8px;
+    padding:25px;
+}
+
+#compass span 
+{
+	position: absolute;
+	font-weight: bold;
+    color:#fff;
+}
+
+#north 
+{
+	left: 93px;
+    top: -20px;
+}
+
+#south 
+{
+	left: 95px;
+    bottom: -20px;
+}
+
+#east 
+{
+	right: -12px;
+    top: 90px;
+}
+
+#west
+{
+	left: -18px;
+    top: 90px;
+}
+
+.arena
+{
+    border:4px solid #000;
+    background:#fff;
+
+    width:600px;
+    height:600px;
+    text-align:center;
+}
+
+.arena-image-boss
+{    
+    margin-top:10px;
+    width:100px;
+    height:100px;
+}
+
+.raid-image
+{
+    display:inline-block;
+}
+
+.raid-image img
+{
+    position:relative;
+}
+
+ol
+{
+    font-size:12px;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    padding-left:14px;
+    padding-right:10px;
+
+    border-radius:8px;
+}
+
+.order 
+{
+    margin-top:20px;
+}
+
+.order-heading
+{
+    color:#fff;
+    margin-bottom:5px;
+}
+
+.order-list li
+{
+    color:#fff;
+    font-size:24px;
+}
+
+/* MOON */
+.raid-image.moon
+{
+    position:relative;
+    top:0%;
+    left:10%;
+}
+
+.raid-image.moon > ol
+{
+    border: 1px solid silver;
+    background:silver;
+    margin-top:2px;
+}
+
+/* CROSS */
+.raid-image.cross
+{
+    position:relative;
+    top:0%;
+    left:20%;
+}
+
+.raid-image.cross > ol
+{
+    border:1px solid #f95552;
+    background:#f95552;
+    margin-top:2px;
+}
+
+/* SQUARE */
+.raid-image.square
+{
+    position:relative;
+    top:0%;
+    right:10%;
+}
+
+.raid-image.square > ol
+{
+    border: 1px solid lightskyblue;
+    background: lightskyblue;
+    margin-top:2px;
+}
+
+/* CIRCLE */
+.raid-image.circle
+{
+    position:relative;
+    top:0%;
+    right:20%;
+}
+
+.raid-image.circle > ol
+{
+    border: 1px solid orange;
+    background:orange;
+    margin-top:2px;
+}
+
+/* SKULL */
+.raid-image.skull
+{
+    position:relative;
+    bottom:20%;
+}
+
+.raid-image.skull > ol
+{
+    background:beige;
+    border: 1px solid beige;
+    margin-top:2px;
+}
+
+input[type="text"]
+{
+    width:140px;
+    margin-bottom:2px;
+}
+
+/* Flex */
+.wrapper
+{
+    color:#000;
+    height:100%;
+}
+
+.media.logo
+{
+    border:2px solid #eee;
+    border-radius:50%;
+    width:64px;
+    height:64px;
+
+    margin-right:15px;
+}
+
+.padded
+{
+    padding-left:35px;
+}
+
+.imgContainer .imgRow 
+{
+    margin:20px;
+    text-align:center;
+}
+
+.imgContainer .imgRow  img 
+{
+    margin:0 20px;
+}
