@@ -54,7 +54,7 @@ class Content extends Component
 
                                     <div className="imgContainer">
                                         <div className="raid-image square">
-                                            <Media src="raid-icons/square.png" alt="Square" />
+                                            <Media src="raid-icons/Square.png" alt="Square" />
                                             <ol>
                                                 <li><Input type="text"></Input></li>
                                                 <li><Input type="text"></Input></li>
