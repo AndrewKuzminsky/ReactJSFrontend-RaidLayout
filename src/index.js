@@ -40,7 +40,7 @@ class Content extends Component
             <div className="wrapper">
                 <Navbar className="padded" color="dark" dark expand="md">
                     <NavbarBrand href="/"> 
-                        <Media className="logo" src="public/raid-icons/Magtheridon.png" alt="mag" />Raid Layout
+                        <Media className="logo" src="../public/raid-icons/Magtheridon.png" alt="mag" />Raid Layout
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                 </Navbar>
@@ -50,12 +50,12 @@ class Content extends Component
                         <Row>
                             <Col>
                                 <div className="arena rounded-circle">
-                                    <Media className="arena-image-boss rounded-circle" src="public/raid-icons/Magtheridon.png" alt="mag" />
+                                    <Media className="arena-image-boss rounded-circle" src="../public/raid-icons/Magtheridon.png" alt="mag" />
 
                                     <div className="imgContainer">
 
                                         <div className="raid-image square">
-                                            <Media src="public/raid-icons/square.png" alt="Square" />
+                                            <Media src="../public/raid-icons/square.png" alt="Square" />
                                             <ol>
                                                 <li><Input type="text"></Input></li>
                                                 <li><Input type="text"></Input></li>
@@ -65,7 +65,7 @@ class Content extends Component
                                         </div>
 
                                         <div className="raid-image moon">
-                                            <Media src="public/raid-icons/moon.png" alt="Moon" />
+                                            <Media src="../public/raid-icons/moon.png" alt="Moon" />
                                             <ol>
                                                 <li><Input type="text"></Input></li>
                                                 <li><Input type="text"></Input></li>
@@ -79,7 +79,7 @@ class Content extends Component
                                     <div className="imgContainer">
 
                                         <div className="raid-image circle">
-                                            <Media src="public/raid-icons/circle.png" alt="Circle" />
+                                            <Media src="../public/raid-icons/circle.png" alt="Circle" />
                                             <ol>
                                                 <li><Input type="text"></Input></li>
                                                 <li><Input type="text"></Input></li>
@@ -89,7 +89,7 @@ class Content extends Component
                                         </div>
 
                                         <div className="raid-image cross">
-                                            <Media src="public/raid-icons/cross.png" alt="Cross" />
+                                            <Media src="../public/raid-icons/cross.png" alt="Cross" />
                                             <ol>
                                                 <li><Input type="text"></Input></li>
                                                 <li><Input type="text"></Input></li>
@@ -102,7 +102,7 @@ class Content extends Component
 
                                   
                                     <div className="raid-image skull">
-                                        <Media src="public/raid-icons/skull.png" alt="Skull" />
+                                        <Media src="../public/raid-icons/skull.png" alt="Skull" />
                                         <ol>
                                             <li><Input type="text"></Input></li>
                                             <li><Input type="text"></Input></li>
@@ -132,11 +132,11 @@ class Content extends Component
                                     <div className="order">
                                         <h3 className="order-heading">Kill Order</h3>
                                         <ol className="order-list">
-                                            <li><Media src="public/raid-icons/skull.png" alt="Circle" /></li>
-                                            <li><Media src="public/raid-icons/cross.png" alt="Circle" /></li>
-                                            <li><Media src="public/raid-icons/circle.png" alt="Circle" /></li>
-                                            <li><Media src="public/raid-icons/square.png" alt="Circle" /></li>
-                                            <li><Media src="public/raid-icons/moon.png" alt="Circle" /></li>
+                                            <li><Media src="../public/raid-icons/skull.png" alt="Circle" /></li>
+                                            <li><Media src="../public/raid-icons/cross.png" alt="Circle" /></li>
+                                            <li><Media src="../public/raid-icons/circle.png" alt="Circle" /></li>
+                                            <li><Media src="../public/raid-icons/square.png" alt="Circle" /></li>
+                                            <li><Media src="../public/raid-icons/moon.png" alt="Circle" /></li>
                                         </ol>  
                                     </div>
                                 </Row>
