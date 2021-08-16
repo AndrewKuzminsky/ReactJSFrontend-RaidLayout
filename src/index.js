@@ -40,7 +40,7 @@ class Content extends Component
             <div className="wrapper">
                 <Navbar className="padded" color="dark" dark expand="md">
                     <NavbarBrand href="/"> 
-                        <Media className="logo" src="../public/raid-icons/Magtheridon.png" alt="mag" />Raid Layout
+                        <Media className="logo" src="raid-icons/Magtheridon.png" alt="mag" />Raid Layout
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                 </Navbar>
@@ -55,7 +55,7 @@ class Content extends Component
                                     <div className="imgContainer">
 
                                         <div className="raid-image square">
-                                            <Media src="../public/raid-icons/square.png" alt="Square" />
+                                            <Media src="square.png" alt="Square" />
                                             <ol>
                                                 <li><Input type="text"></Input></li>
                                                 <li><Input type="text"></Input></li>
