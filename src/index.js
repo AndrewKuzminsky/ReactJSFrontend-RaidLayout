@@ -53,7 +53,6 @@ class Content extends Component
                                     <Media className="arena-image-boss rounded-circle" src="raid-icons/Magtheridon.png" alt="mag" />
 
                                     <div className="imgContainer">
-
                                         <div className="raid-image square">
                                             <Media src="raid-icons/square.png" alt="Square" />
                                             <ol>
