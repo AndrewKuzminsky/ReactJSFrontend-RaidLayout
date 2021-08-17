@@ -5,6 +5,15 @@ body, html, #root
     height:100%;
 }
 
+#author
+{
+    font-size:12px;
+    font-style:italic;
+
+    margin-left:80px;
+    margin-top:-25px;
+}
+
 #compass
 {
     width:200px;
@@ -45,7 +54,7 @@ body, html, #root
 
 .container
 {
-    margin-top:60px;
+    margin-top:30px;
 }
 
 .col
@@ -122,11 +131,11 @@ body, html, #root
 
 ol
 {
-    font-size:12px;
+    font-size:16px;
     padding-top:5px;
     padding-bottom:5px;
     
-    padding-left:14px;
+    padding-left:20px;
     padding-right:10px;
 
     border-radius:8px;
@@ -147,6 +156,7 @@ ol
 {
     color:#fff;
     font-size:24px;
+    margin-bottom:10px;
 }
 
 /* MOON */

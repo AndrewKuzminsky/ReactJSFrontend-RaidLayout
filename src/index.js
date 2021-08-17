@@ -40,7 +40,8 @@ class Content extends Component
             <div className="wrapper">
                 <Navbar className="padded" color="dark" dark expand="md">
                     <NavbarBrand href="/"> 
-                        <Media className="logo" src="raid-icons/Magtheridon.png" alt="mag" />Raid Layout
+                        <Media className="logo" src="raid-icons/Magtheridon.png" alt="mag" />RaidLayout
+                        <p id="author">- Telefang</p>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                 </Navbar>
@@ -131,11 +132,11 @@ class Content extends Component
                                     <div className="order">
                                         <h3 className="order-heading">Kill Order</h3>
                                         <ol className="order-list">
-                                            <li><Media src="raid-icons/Skull.png" alt="Circle" /></li>
-                                            <li><Media src="raid-icons/Cross.png" alt="Circle" /></li>
-                                            <li><Media src="raid-icons/Circle.png" alt="Circle" /></li>
-                                            <li><Media src="raid-icons/Square.png" alt="Circle" /></li>
-                                            <li><Media src="raid-icons/Moon.png" alt="Circle" /></li>
+                                            <li><Media src="raid-icons/Skull.png" alt="Skull" /> </li>
+                                            <li><Media src="raid-icons/Cross.png" alt="Cross" /> </li>
+                                            <li><Media src="raid-icons/Circle.png" alt="Circle" /> </li>
+                                            <li><Media src="raid-icons/Square.png" alt="Square" /> </li>
+                                            <li><Media src="raid-icons/Moon.png" alt="Moon" /> </li>
                                         </ol>  
                                     </div>
                                 </Row>
