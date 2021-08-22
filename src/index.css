@@ -1,8 +1,13 @@
 /* Element Setup */
 body, html, #root
 {
+    margin: 0;
+    padding: 0;
+}
+
+body, #root
+{
     background:#d9d9d9;
-    height:100%;
 }
 
 #author
@@ -12,6 +17,23 @@ body, html, #root
 
     margin-left:80px;
     margin-top:-25px;
+}
+
+.motivContainer
+{
+    width:70%;
+    text-align:center;
+}
+
+.motivational
+{
+    color:#999;
+    flex:1;
+}
+
+.motivational a 
+{
+    text-decoration: none;
 }
 
 #compass
@@ -61,6 +83,7 @@ body, html, #root
 {
     display:flex;
     justify-content: center;
+
 }
 
 .col.small
@@ -110,6 +133,7 @@ body, html, #root
     width:600px;
     height:600px;
     text-align:center;
+
 }
 
 .arena-image-boss
@@ -243,7 +267,9 @@ input[type="text"]
 .wrapper
 {
     color:#000;
-    height:100%;
+
+    height: 100%;
+    width: 100%;
 }
 
 .media.logo

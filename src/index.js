@@ -16,6 +16,21 @@ import {
 
 import './index.css';
 
+
+//get random value from array
+let sayings = [
+    "Seal of Light... it all adds up",
+    "Racism & PUG Warlocks, name a better duo",
+    "RIP Raygun",
+    "*Soundboard Noises mid-raid*",
+    "Democracy Loot",
+    "Apribot, now there's a meme",
+    "How do I totem twist?!?!!?",
+    <a href="https://youtu.be/nU6c3pcqrLE" target="_blank">https://youtu.be/nU6c3pcqrLE</a>
+];
+
+let randSaying = sayings[Math.floor(Math.random() * sayings.length)];
+
 class Content extends Component
 {
     constructor(props) 
@@ -44,65 +59,30 @@ class Content extends Component
                         <p id="author">- Telefang</p>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
+
+                        <div className="motivContainer">
+                            <h3 className="motivational">{randSaying}</h3>
+                        </div>
                 </Navbar>
+                <Container>
+                    <Row>
+                        <Col>
+                            <div className="arena rounded-circle">
+                                <Media className="arena-image-boss rounded-circle" src="raid-icons/Magtheridon.png" alt="mag" />
 
-                <Jumbotron className="content">
-                    <Container>
-                        <Row>
-                            <Col>
-                                <div className="arena rounded-circle">
-                                    <Media className="arena-image-boss rounded-circle" src="raid-icons/Magtheridon.png" alt="mag" />
-
-                                    <div className="imgContainer">
-                                        <div className="raid-image square">
-                                            <Media src="raid-icons/Square.png" alt="Square" />
-                                            <ol>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                            </ol>
-                                        </div>
-
-                                        <div className="raid-image moon">
-                                            <Media src="raid-icons/Moon.png" alt="Moon" />
-                                            <ol>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                            </ol>
-                                        </div>
-
+                                <div className="imgContainer">
+                                    <div className="raid-image square">
+                                        <Media src="raid-icons/Square.png" alt="Square" />
+                                        <ol>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                        </ol>
                                     </div>
 
-                                    <div className="imgContainer">
-
-                                        <div className="raid-image circle">
-                                            <Media src="raid-icons/Circle.png" alt="Circle" />
-                                            <ol>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                            </ol>
-                                        </div>
-
-                                        <div className="raid-image cross">
-                                            <Media src="raid-icons/Cross.png" alt="Cross" />
-                                            <ol>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                                <li><Input type="text"></Input></li>
-                                            </ol>
-                                        </div>
-
-                                    </div>
-
-                                  
-                                    <div className="raid-image skull">
-                                        <Media src="raid-icons/Skull.png" alt="Skull" />
+                                    <div className="raid-image moon">
+                                        <Media src="raid-icons/Moon.png" alt="Moon" />
                                         <ol>
                                             <li><Input type="text"></Input></li>
                                             <li><Input type="text"></Input></li>
@@ -112,39 +92,74 @@ class Content extends Component
                                     </div>
 
                                 </div>
-                            </Col>
 
+                                <div className="imgContainer">
 
-                            <Col className="small bg-dark">
-                                <Row>
-                                    <Col>
-                                        <div id="compass">
-                                            <span id="north">N</span>
-                                            <span id="east">E</span>
-                                            <span id="south">S</span>
-                                            <span id="west">W</span>
-                                            
-                                            <div id="pointerY"></div>
-                                            <div id="pointerX"></div>
-                                        </div>
-                                    </Col>
-
-                                    <div className="order">
-                                        <h3 className="order-heading">Kill Order</h3>
-                                        <ol className="order-list">
-                                            <li><Media src="raid-icons/Skull.png" alt="Skull" /> </li>
-                                            <li><Media src="raid-icons/Cross.png" alt="Cross" /> </li>
-                                            <li><Media src="raid-icons/Circle.png" alt="Circle" /> </li>
-                                            <li><Media src="raid-icons/Square.png" alt="Square" /> </li>
-                                            <li><Media src="raid-icons/Moon.png" alt="Moon" /> </li>
-                                        </ol>  
+                                    <div className="raid-image circle">
+                                        <Media src="raid-icons/Circle.png" alt="Circle" />
+                                        <ol>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                        </ol>
                                     </div>
-                                </Row>
-                            </Col>
 
-                        </Row>
-                    </Container>
-                </Jumbotron>
+                                    <div className="raid-image cross">
+                                        <Media src="raid-icons/Cross.png" alt="Cross" />
+                                        <ol>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                            <li><Input type="text"></Input></li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+
+                                
+                                <div className="raid-image skull">
+                                    <Media src="raid-icons/Skull.png" alt="Skull" />
+                                    <ol>
+                                        <li><Input type="text"></Input></li>
+                                        <li><Input type="text"></Input></li>
+                                        <li><Input type="text"></Input></li>
+                                        <li><Input type="text"></Input></li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </Col>
+
+
+                        <Col className="small bg-dark">
+                            <Row>
+                                <Col>
+                                    <div id="compass">
+                                        <span id="north">N</span>
+                                        <span id="east">E</span>
+                                        <span id="south">S</span>
+                                        <span id="west">W</span>
+                                        
+                                        <div id="pointerY"></div>
+                                        <div id="pointerX"></div>
+                                    </div>
+                                </Col>
+
+                                <div className="order">
+                                    <h3 className="order-heading">Kill Order</h3>
+                                    <ol className="order-list">
+                                        <li><Media src="raid-icons/Skull.png" alt="Skull" /> </li>
+                                        <li><Media src="raid-icons/Cross.png" alt="Cross" /> </li>
+                                        <li><Media src="raid-icons/Circle.png" alt="Circle" /> </li>
+                                        <li><Media src="raid-icons/Square.png" alt="Square" /> </li>
+                                        <li><Media src="raid-icons/Moon.png" alt="Moon" /> </li>
+                                    </ol>  
+                                </div>
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         );
     }
